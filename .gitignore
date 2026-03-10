@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+.DS_Store
+
+# Data outputs
+*.csv
+*_raw.json
+
+# Credentials / service accounts
+ticket-automation-478816-065d3bcabe7e.json
+
+# One-off tests / debug scripts
+*_test.py
+test_*.py
+*debug*.py
+scratch_*.py
+oneoff_*.py
